@@ -1,0 +1,25 @@
+{
+  "name": "brilo",
+  "main": "index.js",
+  "homepage": "https://mpaukov.github.io/brilo",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "start": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /brilo/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mpaukov/brilo"
+  },
+  "keywords": [],
+  "author": "Michael Paukov <michael.paukov@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mpaukov/brilo/issues"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "2.6.2",
+    "parcel": "^2.6.2",
+    "sass": "^1.32.8"
+  }
+}

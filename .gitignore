@@ -1,3 +1,5 @@
+.parcel-cache/
+.vscode/
 # Logs
 logs
 *.log
